@@ -1,0 +1,79 @@
+.purpleBG{
+    background-color: #6D749E;
+    color: #fff;
+}
+
+.blueBG{
+    background-color: #7EBCC8;
+    color: #fff;
+}
+
+.greenBG{
+    background-color: #71A087;
+    color: #fff;
+}
+
+.yellowBG{
+    background-color: #F6BD1D;
+    color: #fff;
+}
+
+.coralBG{
+    background-color: #E98B79;
+    color: #fff;
+}
+#weServe h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+#weServe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img{
+    max-width: 100%;
+    margin-left; auto;
+    margin-right: auto;
+}
+
+.wS-row{
+    flex-direction: row;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.flex-grid {
+    display: flex;
+}
+
+.flex-grid-row .col {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.flex-grid-row {
+        display: flex;
+        justify-content: space-between;
+      }
+.flex-grid-row .col-third {
+    width: 32%;
+}
+
+.ages{
+    flex: 1 0 16.666667%;
+    max-width: 16.666667%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
